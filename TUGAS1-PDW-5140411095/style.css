@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: calibry, ,segor, arial, tahoma, sans-serif;
+}
+body{
+  background-color: #000000;
+}
+#wrapper{
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+   background-color: #DDDDDD;
+}
+#header{
+  background: url(images/php.jpg) repeat-x #555;
+  height: 70px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#header input{
+	width:150px;
+	height:0px;
+	margin:10px;
+}
+#header img{width: 130px; height: 35px;}
+#menu-utama{
+  margin-top: 3px;
+  list-style: none;
+}
+#menu-utama li{
+  float: left;
+  padding: 8px 20px;
+  border-right: 1px solid #555555;
+}
+#menu-utama li:hover{
+	background-color: #DDDDDD;
+}
+#menu-utama li a{
+  color: #ffffff;
+  text-decoration: none;
+  border-top: 1px solid #BDC3C7;
+}
+
+#header form{
+  float: right;
+  margin-top: -7px;
+  margin-right: 60px;
+}
+#header from input{
+  border: none;
+  height: 20px;
+}
+#daftar-artikel{
+  width: 600px;
+  float: left;
+}
+.artikel{
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.artikel img{
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+  height: 165px;
+}
+.artikel b{
+  color: #616060;
+  background: #DDDDDD;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.artikel p{
+  margin: 10px 0;
+}
+.artikel a{
+  display: block;
+  text-align: right;
+  color: #636363;
+}
+#sidebar{
+  width: 270px;
+  float: right;
+}
+
+#sidebar h2{
+  font-size: 18px;
+  margin: 10px 0;
+}
+#sidebar p{
+  line-height: 20px;
+  color: #636363;
+}
+#sidebar ul li a{
+  color: #636363;
+  text-decoration: none;
+}
+#footer{
+  clear: both;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px;
+  color: #555555;
+}
+.form_contact{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+#myform{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:3px;
+}
+.full-width{
+	grid-columns: 1/2;
+}
+.form_contact label{
+	display:block;
+	
+}
+.form_contact p{
+	margin:0;
+}
+.form_contact button,input,textarea{
+	padding:1em;
+	
+}
+button{
+	background:lightgrey;
+	width:100%
+	border:0;
+}
+button:hover, button:focus{
+	background:gold;
+	outline:0;
+}
+input:focus,textarea:focus{
+	outline:3px solid gold;
+	
+}
